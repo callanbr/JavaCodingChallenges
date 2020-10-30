@@ -5,6 +5,7 @@ public class Intermediate {
     // #1 - RockPaperScissor
     // You have two players each can choose Rock, Paper, or Scissor.
     // Return the winner- Rock wins Scissor, Paper wins Rock, Scissor wins Paper
+    // Both players choose the same? It's a tie
 
     public static String RockPaperScissor(String Player1, String Player2) {
         return "";
@@ -12,7 +13,7 @@ public class Intermediate {
 
     // #2 - ReverseInt
     // Create a function that takes an integer n and reverses it.
-    // abcdefg = > gfedcba
+    // 12345 = > 54321
 
     public static String ReverseInt(int n) {
         return "";
@@ -23,7 +24,7 @@ public class Intermediate {
     // 3! = 3 * 2 * 1 = 6
     // 4! = 4 * 3 * 2 * 1 = 24
 
-    public static int Factorial(int n) {
+    public static long Factorial(long n) {
         return 0;
     }
 
