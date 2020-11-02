@@ -28,4 +28,13 @@ public class Intermediate {
         return 0;
     }
 
+    // #4 camelCase
+    // Hello World => helloWorld
+    // This_IS-cool => thisIsCool
+    // StringBuilder / .append()
+
+    public static String camelCase(String str) {
+        return str;
+    }
+
 }
